@@ -6,14 +6,14 @@ const Dashboard = () => {
         {
             "id": 1,
             "month": "Mar",
-            "investment": 100000,
+            "investment": 200000,
             "sell": 241,
             "revenue": 10401
         },
         {
             "id": 2,
             "month": "Apr",
-            "investment": 200000,
+            "investment": 300000,
             "sell": 423,
             "revenue": 24500
         },
@@ -27,28 +27,28 @@ const Dashboard = () => {
         {
             "id": 4,
             "month": "Jun",
-            "investment": 500000,
+            "investment": 700000,
             "sell": 529,
             "revenue": 40405
         },
         {
             "id": 5,
             "month": "Jul",
-            "investment": 600000,
+            "investment": 400000,
             "sell": 601,
             "revenue": 50900
         },
         {
             "id": 6,
             "month": "Aug",
-            "investment": 700000,
+            "investment": 800000,
             "sell": 670,
             "revenue": 61000
         }
     ]
     return (
         <div className='mt-5'>
-            <h1 className='text-success text-center'>Hlw Chart</h1>
+            <h1 className='text-success text-center'>Summery</h1>
             <div className='mt-5 row'>
                 <div className='col-lg-6 d-flex justify-content-center'>
                     <BarChart
