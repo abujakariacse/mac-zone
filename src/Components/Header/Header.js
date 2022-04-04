@@ -7,7 +7,7 @@ const Header = () => {
         <div className='header'>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <h4 className="text-white">Phone Zone</h4>
+                    <h4 className="text-white">Mac Zone</h4>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

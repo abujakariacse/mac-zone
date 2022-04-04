@@ -7,8 +7,8 @@ const Customer = (props) => {
         <div className='container shadow p-3 mb-5 bg-body rounded'>
             <div className='container card'>
                 <h5>Name: {name}</h5>
-                <p>{description}</p>
-                <p>Rating: <i className="fa-solid fa-star text-warning"></i>
+                <p><span className='fs-6 text-secondary fw-bold'>Comment:</span> {description}</p>
+                <p>Ratings: <i className="fa-solid fa-star text-warning"></i>
                     <i className="fa-solid fa-star text-warning"></i>
                     <i className="fa-solid fa-star text-warning"></i>
                     <i className="fa-solid fa-star text-warning"></i>
